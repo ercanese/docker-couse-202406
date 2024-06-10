@@ -28,3 +28,16 @@ docker -d --name test redis
 #container çalışırken sürekli ayakta kalan bir processe ihtiyaç duyar.
 docker run --name script5 -d ubuntu sh -c 'while true; do echo "test"; sleep 2; done'
 
+#çalıştırma esanısnda container içerisine
+docker run -it --name test ubuntu bash
+
+#run esnasında container içerisine girme
+docker run -it --name test1213 ubuntu bash
+    apt update
+    apt install figlet
+#çalışan bir containera girmek için.
+docker exec -it a23 bash
+    apt update
+    apt install figlet
+
+

@@ -1,0 +1,7 @@
+C:\course\docker\mvc\pub\tbb.exe
+C:\course\docker\mvc\pub\appsettings.Development.json
+C:\course\docker\mvc\pub\appsettings.json
+C:\course\docker\mvc\pub\tbb.dll
+C:\course\docker\mvc\pub\tbb.deps.json
+C:\course\docker\mvc\pub\tbb.runtimeconfig.json
+C:\course\docker\mvc\pub\tbb.pdb

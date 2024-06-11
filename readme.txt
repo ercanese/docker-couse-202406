@@ -60,6 +60,10 @@ docker rm $(docker ps -qa)
 #tüm imajları silmek için.
 docker rmi $(docker images -q)
 
+#container imaj kaydetmek için
+docker save redis > redis.tar
+#container imajını load etmek için
+docker load < redis.tar
 
 
 

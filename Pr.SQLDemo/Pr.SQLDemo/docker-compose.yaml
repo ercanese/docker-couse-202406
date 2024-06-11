@@ -6,7 +6,7 @@ services:
     environment:
       - ASPNETCORE_URLS=http://*:80
     depends_on:
-      -   sql01:
+      -   sql01
   sql01:
     image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
